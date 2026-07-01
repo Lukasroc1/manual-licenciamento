@@ -2,7 +2,7 @@ import React from 'react';
 
 const SideNavBar = ({ currentPage, setCurrentPage, isOpen, onClose }) => {
   const menuItems = [
-    { id: 'introducao', label: '1. Introdução e Definições', icon: 'menu_book' },
+    { id: 'introducao', label: '1. Manual para Microempresários', icon: 'menu_book' },
     { id: 'impactos', label: '2. Avaliação de Impacto', icon: 'eco' },
     { id: 'processo', label: '3. Processo de Licenciamento', icon: 'account_tree' },
     { id: 'trifasico', label: '4. Fluxograma Trifásico', icon: 'schema' },
