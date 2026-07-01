@@ -7,6 +7,7 @@ import ProcessoLicenciamento from './pages/ProcessoLicenciamento';
 import FluxoTrifasico from './pages/FluxoTrifasico';
 import FluxoSimplificado from './pages/FluxoSimplificado';
 import ConformidadePraticas from './pages/ConformidadePraticas';
+import Sobre from './pages/Sobre';
 import './App.css';
 
 function App() {
@@ -35,6 +36,8 @@ function App() {
         return <FluxoSimplificado />;
       case 'conformidade':
         return <ConformidadePraticas />;
+      case 'sobre':
+        return <Sobre />;
       default:
         return <Introducao />;
     }

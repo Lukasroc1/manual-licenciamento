@@ -7,7 +7,8 @@ const SideNavBar = ({ currentPage, setCurrentPage, isOpen, onClose }) => {
     { id: 'processo', label: '3. Processo de Licenciamento', icon: 'account_tree' },
     { id: 'trifasico', label: '4. Fluxograma Trifásico', icon: 'schema' },
     { id: 'simplificado', label: '5. Fluxograma Simplificado (LAS)', icon: 'schema' },
-    { id: 'conformidade', label: '6. Conformidade e Práticas', icon: 'fact_check' }
+    { id: 'conformidade', label: '6. Conformidade e Práticas', icon: 'fact_check' },
+    { id: 'sobre', label: 'Sobre o Projeto', icon: 'info' }
   ];
 
   const sidebarContent = (
